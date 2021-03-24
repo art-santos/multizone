@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Header from '../../home/components/Header';
+import {Header} from '../../home/components/Header';
 
 export default function Blog() {
   return (
