@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import Header from '../../home/components/Header';
 
 export default function Blog() {
   return (
     <div>
+    <Header />
       <h3>This is our blog</h3>
       <ul>
         <li>
